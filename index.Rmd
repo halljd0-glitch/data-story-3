@@ -1,6 +1,6 @@
 --- 
-title: "TITLE GOES HERE"
-author: "AUTHOR"
+title: "The State of North American Birds: Biodiversity in a Changing Landscape"
+author: "Jillian Hall"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: 
@@ -13,29 +13,16 @@ documentclass: book
 bibliography: [bibliography.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: https://github.com/ericmkeen/bookdown_minimal
-description: "DESCRIPTION yall."
 ---
 
-# Prerequisites
+# Defining Biodiversity in a Global Context
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$, or for weaving in `R` with `Rmarkdown`.
+In 2015, the United Nations adopted an ambitious framework designed to guide humanity toward a more sustainable future. Known as the Sustainable Development Goals (SDGs), this collection of seventeen interconnected objectives established a global indicator system intended to measure progress toward environmental protection, economic stability, and social well-being [@UnitedNationsGeneralAssembly2015]. The SDGs emerged in response to growing scientific consensus that human activity was reshaping Earth’s systems at an unprecedented rate, threatening ecological stability and long-term human prosperity.
 
-The **bookdown** package can be installed from CRAN or Github:
+Among these goals, Sustainable Development Goal 15 focuses specifically on life on land. SDG 15 aims to protect, restore, and promote the sustainable use of terrestrial ecosystems while combating desertification, halting land degradation, and preventing biodiversity loss [@UnitedNationsGeneralAssembly2015]. Biodiversity loss refers not only to the extinction of species but also to declines in species abundance and ecosystem complexity [@Hamilton2005]. Because biodiversity underpins ecological processes worldwide, its decline represents one of the most significant environmental challenges of the twenty-first century.
 
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
+The SDGs were designed to provide measurable indicators of global progress. By tracking trends in habitat protection, species populations, and ecosystem health, SDG 15 offers a framework through which nations can evaluate whether conservation efforts are successfully slowing biodiversity loss. Yet despite the establishment of these global commitments, evidence increasingly suggests that biodiversity continues to decline across much of the planet [@Heydari2020].
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+![Grid of Global Sustainability Goals.(https://globalgoals.org/resources/)](images/Globalgoals.jpg)

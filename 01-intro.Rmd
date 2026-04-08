@@ -1,21 +1,11 @@
-# Introduction {#intro}
+# Agriculture, Climate, and Habitat Transformation 
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+Although biodiversity loss is a global trend, it is not evenly distributed across Earth’s landscapes. Certain regions contain exceptionally high concentrations of species found nowhere else in the world. These areas, often referred to as biodiversity hotspots or key biodiversity areas, represent locations where conservation efforts can have disproportionately large impacts. Despite covering less than three percent of the Earth’s surface, these regions contain approximately 43 percent of all bird, mammal, reptile, and amphibian species [@Heydari2020]. Their ecological importance far exceeds their geographic size.
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+Paradoxically, many of these biologically rich regions are also among the most threatened [@Heydari2020]. Habitat loss and degradation remain the most significant drivers of biodiversity decline worldwide [@Dong2025]. Few ecosystems remain untouched by human activity as landscapes are continually modified to support expanding populations and economies. Natural habitats are converted for agriculture, urban development, infrastructure, and resource extraction, often reducing the availability of nesting, feeding, and migration habitat for wildlife. In the United States alone, approximately 10.9 million acres of land were converted for agricultural use between 2008 and 2016 [@Lark2020]. This transformation has been intensified by the shift from small-scale farming toward large, industrialized agricultural systems that simplify landscapes and reduce ecological complexity.
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+Climate change further compounds these pressures by altering temperature regimes and seasonal cycles, disrupting ecological timing [@Heydari2020]. For migratory birds in particular, shifting climate patterns can change the timing of peak food availability, meaning traditional migration routes may no longer align with the resources birds depend on for survival.
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+Together, land-use change, climate change, pollution, and biological invasions interact to create cumulative ecological stress. These pressures are especially evident in agricultural landscapes, which now occupy approximately 379 million hectares in the United States and 67 million hectares in Canada [@Stanton2018].
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
 
-You can write citations, too. For example,**bookdown** package was built on top of R Markdown and **knitr** [@xie2015]. *(Look in the file "bilbiography.bib" file to see how references can be added to your book.)*
